@@ -13,7 +13,7 @@ export const ViewHeaderInstagram = styled.View`
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    margin: 30px 10px 0;
+    margin: 50px 10px 0;
 `;
 
 export const ImageInstagram = styled.Image`

@@ -25,11 +25,9 @@ const Feed: React.FC = () => {
           resizeMode="contain" 
           source={{uri: 'https://images-ext-1.discordapp.net/external/9p6QyCk1Pdyo8GKhZw-Q8GdgWYMxAaviWPyVOf6wS0k/https/upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png?width=400&height=143'}}
         />
-
         <ViewButtonsHeader>
-          <IconHeader resizeMode="contain" source={heartIcon} />
           <IconHeader resizeMode="contain" source={addIcon} />
-
+          <IconHeader resizeMode="contain" source={heartIcon} />
           <ButtonDirect  onPress={() => navigate('Direct')}>
             <IconHeader resizeMode="contain" source={directIcon} />
           </ButtonDirect>
