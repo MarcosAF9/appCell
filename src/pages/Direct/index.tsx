@@ -1,7 +1,6 @@
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
-import { TextInput } from 'react-native';
 
 import leftArrowIcon from '../../assets/left-arrow.png';
 import downArrowIcon from '../../assets/down-arrow.png';
@@ -9,17 +8,27 @@ import listIcon from '../../assets/list.png';
 import editIcon from '../../assets/edit.png';
 import searchIcon from '../../assets/lupa.png';
 import configIcon from '../../assets/configuration.png';
+import friend1Icon from '../../assets/fotin.png';
+import friend2Icon from '../../assets/iconeragner.png';
+import sendImageIcon from '../../assets/camera.png';
+
 import { 
   Container,
-  TextDirect,  
+  TextDirect,
+  TextChoose,
+  TextSearchBar,  
   ViewHeaderDirect,
   ViewButtonsDirect,
   IconHeader,
   IconDown,
+  FriendsIcon,
   ButtonBack,
   AccountSelect,
   RightIcons,
-  SearchBar
+  SearchBar,
+  ChooseSide,
+  FriendRow,
+  FriendName
 } from './styles';
 
 const Direct: React.FC = () => {
@@ -44,9 +53,29 @@ const Direct: React.FC = () => {
         </ViewHeaderDirect>
         <SearchBar>
           <IconHeader resizeMode="contain" source={searchIcon} />
-          <TextInput />
+          <TextSearchBar>Pesquisar</TextSearchBar>
           <IconHeader resizeMode="contain" source={configIcon} />
         </SearchBar>
+        <ChooseSide>
+          <TextChoose>Principal</TextChoose>
+          <TextChoose>Geral</TextChoose>
+        </ChooseSide>
+        <FriendRow>
+          <FriendsIcon resizeMode="contain" source={friend1Icon}/>
+          <FriendName>
+            <TextChoose>Josnei</TextChoose>
+            <TextChoose>Online há 15 anos</TextChoose>
+          </FriendName>  
+          <IconHeader resizeMode="contain" source={sendImageIcon}/>
+        </FriendRow>
+        <FriendRow>
+          <FriendsIcon resizeMode="contain" source={friend2Icon}/>
+          <FriendName>
+            <TextChoose>Ragner</TextChoose>
+            <TextChoose>Online há 8 horas</TextChoose>
+          </FriendName>  
+          <IconHeader resizeMode="contain" source={sendImageIcon}/>
+        </FriendRow>
       </Container>
   ); 
 }

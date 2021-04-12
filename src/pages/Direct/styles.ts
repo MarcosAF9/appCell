@@ -51,8 +51,47 @@ export const RightIcons = styled.View`
     margin-left: 105px;   
 `;
 
-export const SearchBar = styled.View`
-    flex-direction: row;
+export const SearchBar = styled.TouchableOpacity`
     align-items: center;
-    background-color: grey;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #eee;
+    margin: 20px 20px 10px;
+    border-radius: 15px;
+    height: 40px;
+`;
+
+export const TextSearchBar = styled.Text`
+    font-weight: bold;
+    color: grey;
+    margin-left: -170px;
+    font-size: 18px;
+`;
+
+export const ChooseSide = styled.View`
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 30px 70px;
+`;
+
+export const TextChoose = styled.Text`
+    font-weight: bold;
+`;
+
+export const FriendRow = styled.TouchableOpacity`
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    margin-bottom: 10px;
+`;
+
+export const FriendsIcon = styled.Image`
+    margin-left: 30px;
+    align-items: center;
+`;
+
+export const FriendName = styled.View`
+    flex-direction: column;
+    margin-left: -120px;
 `;
