@@ -64,7 +64,7 @@ const Direct: React.FC = () => {
           <FriendsIcon resizeMode="contain" source={friend1Icon}/>
           <FriendName>
             <TextChoose>Josnei</TextChoose>
-            <TextChoose>Online há 15 anos</TextChoose>
+            <TextChoose>Online há 14 anos</TextChoose>
           </FriendName>  
           <IconHeader resizeMode="contain" source={sendImageIcon}/>
         </FriendRow>

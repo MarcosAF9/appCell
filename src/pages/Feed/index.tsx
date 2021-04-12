@@ -2,6 +2,9 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 
+import ComponentStories from '../../Components/ComponentStories';
+
+
 import directIcon from '../../assets/send.png';
 import heartIcon from '../../assets/heart.png';
 import addIcon from '../../assets/add.png';
@@ -33,6 +36,7 @@ const Feed: React.FC = () => {
           </ButtonDirect>
         </ViewButtonsHeader>
       </ViewHeaderInstagram>
+      <ComponentStories />
     </Container>
   );
 }
