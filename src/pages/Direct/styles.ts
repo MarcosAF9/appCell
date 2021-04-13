@@ -78,20 +78,9 @@ export const TextChoose = styled.Text`
     font-weight: bold;
 `;
 
-export const FriendRow = styled.TouchableOpacity`
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-right: 10px;
-    margin-bottom: 10px;
+export const CameraFooter = styled.View`
+    margin-top: 200px;
+    height: 50px;
+    width: 50px;
 `;
 
-export const FriendsIcon = styled.Image`
-    margin-left: 30px;
-    align-items: center;
-`;
-
-export const FriendName = styled.View`
-    flex-direction: column;
-    margin-left: -120px;
-`;

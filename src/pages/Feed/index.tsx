@@ -2,7 +2,7 @@ import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { useNavigation } from '@react-navigation/native';
 
-import ComponentStories from '../../Components/ComponentStories';
+import ComponentStories from '../../components/ComponentStories';
 
 
 import directIcon from '../../assets/send.png';

@@ -1,4 +1,4 @@
-export const stories = [
+export const directs = [
     {
         image: 'https://avatars.githubusercontent.com/u/79205717?v=4',
         name: 'amadeu',
