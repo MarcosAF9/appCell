@@ -2,6 +2,7 @@ import styled from 'styled-components/native';
 
 export const Container = styled.View`
     width: 100%;
+    height: 81%;
 `;
 
 export const ScrollViewListDirects = styled.ScrollView`
@@ -71,9 +72,5 @@ export const NameTime = styled.View`
 export const IconDirectMsg = styled.Image`
     width: 20px;
     height: 50px;
-    margin: 0 12px;
+    margin: 0 15px;
 `;
-
-export const Sapato = styled.View`
-`;
-    

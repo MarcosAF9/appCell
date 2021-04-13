@@ -20,7 +20,8 @@ import {
   ButtonBack,
   AccountSelect,
   RightIcons,
-  CameraFooter
+  CameraFooter,
+  TextFooter
 } from './styles';
 
 const Direct: React.FC = () => {
@@ -46,6 +47,7 @@ const Direct: React.FC = () => {
         <ComponentDirects />
         <CameraFooter>
           <IconHeader resizeMode="contain" source={cameraIcon} />
+          <TextFooter>Câmera</TextFooter>
         </CameraFooter>
       </Container>
   ); 

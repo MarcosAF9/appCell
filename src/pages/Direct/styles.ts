@@ -79,8 +79,13 @@ export const TextChoose = styled.Text`
 `;
 
 export const CameraFooter = styled.View`
-    margin-top: 200px;
-    height: 50px;
-    width: 50px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+`;
+
+export const TextFooter = styled.Text`
+    font-weight: bold;
+    color: blue;
 `;
 
